@@ -4,7 +4,6 @@ import Image from "next/image";
 import logo from "@/public/next.svg";
 
 export default function Home() {
-  const pathname = "DOMAIN;
   return (
     <main className="h-[100dvh] w-full flex flex-col gap-7 items-center justify-center">
       <div className="">
@@ -15,7 +14,7 @@ export default function Home() {
           <h2 className="text-[36px] font-semibold text-[#344054]">
             You’ve just ignited a new Next.Js static site!
           </h2>
-          <p className="text-[#004EEB] text-[20px]">{pathname}</p>
+          <p className="text-[#004EEB] text-[20px]"></p>
         </div>
         <p className="text-[20px] font-medium text-[#344054]">
           Made in Nigeria with 💖
