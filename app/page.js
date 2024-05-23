@@ -4,7 +4,7 @@ import Image from "next/image";
 import logo from "@/public/next.svg";
 
 export default function Home() {
-  const pathname = window.location.href;
+  const pathname = "DOMAIN;
   return (
     <main className="h-[100dvh] w-full flex flex-col gap-7 items-center justify-center">
       <div className="">
