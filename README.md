@@ -1,5 +1,9 @@
 # Deploy Config
 ```bash
+
+# add the following to your next.config
+output: 'export',
+
 # root directory
 /
 
